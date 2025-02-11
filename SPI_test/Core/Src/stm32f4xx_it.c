@@ -22,6 +22,7 @@
 #include "stm32f4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "input.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -51,13 +52,11 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+static uint8_t ibal = 0;
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-extern SPI_HandleTypeDef hspi1;
-extern SPI_HandleTypeDef hspi3;
-extern TIM_HandleTypeDef htim10;
+
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -179,10 +178,18 @@ void SysTick_Handler(void)
 void TIM1_UP_TIM10_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 0 */
-
+  TIM10->SR &= ~TIM_SR_UIF;
   /* USER CODE END TIM1_UP_TIM10_IRQn 0 */
   /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 1 */
-
+  if(!inputCheck()){
+    ibal++;
+    if(ibal < 2) return;
+    //GPIOC->ODR = (GPIOC->ODR | GPIO_PIN_13);
+    GPIOC->ODR &= ~LL_GPIO_PIN_13;              // led_on
+    ibal = 0;
+  }else{
+    GPIOC->ODR |= LL_GPIO_PIN_13;            // led_off
+  }
   /* USER CODE END TIM1_UP_TIM10_IRQn 1 */
 }
 
