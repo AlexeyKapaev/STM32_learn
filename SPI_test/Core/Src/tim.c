@@ -38,7 +38,7 @@ void MX_TIM10_Init(void)
   LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_TIM10);
 
   /* TIM10 interrupt Init */
-  NVIC_SetPriority(TIM1_UP_TIM10_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_SetPriority(TIM1_UP_TIM10_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),2, 0));
   NVIC_EnableIRQ(TIM1_UP_TIM10_IRQn);
 
   /* USER CODE BEGIN TIM10_Init 1 */

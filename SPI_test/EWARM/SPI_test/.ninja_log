@@ -67,3 +67,13 @@
 6	534	7644340070475514	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Obj/Application/User/Core/stm32f4xx_it.o	94ce27626c6407e5
 546	671	7644340071858666	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.out	8f1f448b4c558af6
 691	709	7644340072342229	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.hex	e09599b42879384b
+371	779	7644456593929869	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Obj/Application/User/Core/stm32f4xx_it.o	94ce27626c6407e5
+12	792	7644456593773596	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Obj/Application/User/Core/spi.o	16de926a5923133a
+805	1108	7644456597371094	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.out	8f1f448b4c558af6
+1131	1390	7644456600270191	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.hex	e09599b42879384b
+4	311	7644457814290897	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Obj/Application/User/Core/tim.o	703eebf6c6bb7f32
+328	419	7644457815341673	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.out	8f1f448b4c558af6
+437	450	7644457815761071	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.hex	e09599b42879384b
+2	451	7644460396214444	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Obj/Application/User/Core/stm32f4xx_it.o	94ce27626c6407e5
+464	554	7644460397562163	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.out	8f1f448b4c558af6
+575	586	7644460398023555	C:/Users/Alexej/Desktop/типо проекты/SPI learning/SPI_test/EWARM/SPI_test/Exe/SPI_test.hex	e09599b42879384b

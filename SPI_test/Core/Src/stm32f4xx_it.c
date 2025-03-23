@@ -204,14 +204,14 @@ void TIM1_UP_TIM10_IRQHandler(void)
   /* USER CODE END TIM1_UP_TIM10_IRQn 0 */
   /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 1 */
   
-  if(GPIOC->ODR & Ext_LED_PinOut_Pin)
-  {
-    if(uebal < 200)
-    {
-      GPIOC->ODR &= ~Ext_LED_PinOut_Pin;
-    }
-    else uebal++;
-  }
+//  if(GPIOC->ODR & Ext_LED_PinOut_Pin)
+//  {
+//    if(uebal > 200)
+//    {
+//      GPIOC->ODR &= ~Ext_LED_PinOut_Pin;
+//    }
+//    else uebal++;
+//  }
   
   if(!buttonCheck()){
     ibal++;
@@ -237,19 +237,6 @@ void TIM1_UP_TIM10_IRQHandler(void)
     GPIOC->ODR |= LL_GPIO_PIN_13;            // led_off
   }
   /* USER CODE END TIM1_UP_TIM10_IRQn 1 */
-}
-
-/**
-  * @brief This function handles SPI1 global interrupt.
-  */
-void SPI1_IRQHandler(void)
-{
-  /* USER CODE BEGIN SPI1_IRQn 0 */
-
-  /* USER CODE END SPI1_IRQn 0 */
-  /* USER CODE BEGIN SPI1_IRQn 1 */
-
-  /* USER CODE END SPI1_IRQn 1 */
 }
 
 /**
