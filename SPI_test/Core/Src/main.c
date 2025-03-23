@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "input.h"
+#include "driverM.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -101,6 +102,11 @@ int main(void)
   /* USER CODE BEGIN 2 */
   TIM10->CR1 |= 0x0001;
   TIM10->DIER |= 0x0001;
+  
+  SPI3->CR2 |= 0x40;
+  SPI_Start(SPI1);
+  SPI_Start(SPI3);
+  
   /* USER CODE END 2 */
 
   /* Infinite loop */

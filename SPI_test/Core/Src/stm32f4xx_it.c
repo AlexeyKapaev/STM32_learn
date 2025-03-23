@@ -23,6 +23,12 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "input.h"
+#include <stdbool.h>
+
+#include "driverM.h"
+#include "driverS.h"
+//#include "driverS.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -52,7 +58,23 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-static uint8_t ibal = 0;
+uint8_t ibal = 0;
+
+bool btnPushFlag = false;
+
+uint8_t uebal = 0;
+
+uint8_t pushByte = 0x01;
+
+uint8_t valueTx1[] = {0x0f, 0x1f};
+uint8_t valRx1[] = {0, 0};
+
+uint8_t valueTx3[] = {0x15, 0x17};
+uint8_t valRx3[] = {0, 0};
+
+spi_status_enum spiStatus1;
+uint8_t spiStatus3;
+
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -181,13 +203,37 @@ void TIM1_UP_TIM10_IRQHandler(void)
   TIM10->SR &= ~TIM_SR_UIF;
   /* USER CODE END TIM1_UP_TIM10_IRQn 0 */
   /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 1 */
-  if(!inputCheck()){
+  
+  if(GPIOC->ODR & Ext_LED_PinOut_Pin)
+  {
+    if(uebal < 200)
+    {
+      GPIOC->ODR &= ~Ext_LED_PinOut_Pin;
+    }
+    else uebal++;
+  }
+  
+  if(!buttonCheck()){
     ibal++;
     if(ibal < 2) return;
+    
+    if(btnPushFlag == false)
+    {
+      btnPushFlag = true;
+      GPIOC->ODR &= ~LL_GPIO_PIN_13;              // led_on
+      spiStatus1 = SPI_Exchange(SPI1, valueTx1, valRx1, pushByte);
+      pushByte++;
+    }
+    
     //GPIOC->ODR = (GPIOC->ODR | GPIO_PIN_13);
-    GPIOC->ODR &= ~LL_GPIO_PIN_13;              // led_on
+//    GPIOC->ODR &= ~LL_GPIO_PIN_13;              // led_on
+//    spiStatus1 = SPI_Exchange(SPI1, valueTx1, valRx1, pushByte);
+    
     ibal = 0;
-  }else{
+  }
+  else
+  {
+    btnPushFlag = false;
     GPIOC->ODR |= LL_GPIO_PIN_13;            // led_off
   }
   /* USER CODE END TIM1_UP_TIM10_IRQn 1 */
@@ -212,6 +258,10 @@ void SPI1_IRQHandler(void)
 void SPI3_IRQHandler(void)
 {
   /* USER CODE BEGIN SPI3_IRQn 0 */
+  
+  spiStatus3 = SPI_Receive(SPI3, valRx3);
+
+  GPIOC->ODR |= Ext_LED_PinOut_Pin;
 
   /* USER CODE END SPI3_IRQn 0 */
   /* USER CODE BEGIN SPI3_IRQn 1 */

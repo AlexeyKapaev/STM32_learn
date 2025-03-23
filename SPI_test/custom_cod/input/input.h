@@ -4,6 +4,6 @@
 #include "stdint.h"
 #include "stdbool.h"
 
-bool inputCheck(void);
+bool buttonCheck(void);
 
 #endif /* __INPUT_H */

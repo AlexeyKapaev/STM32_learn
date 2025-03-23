@@ -50,15 +50,15 @@ void MX_GPIO_Init(void)
   LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOB);
 
   /**/
-  LL_GPIO_ResetOutputPin(LED_PinOut_GPIO_Port, LED_PinOut_Pin);
+  LL_GPIO_ResetOutputPin(GPIOC, LED_PinOut_Pin|Ext_LED_PinOut_Pin);
 
   /**/
-  GPIO_InitStruct.Pin = LED_PinOut_Pin;
+  GPIO_InitStruct.Pin = LED_PinOut_Pin|Ext_LED_PinOut_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
-  LL_GPIO_Init(LED_PinOut_GPIO_Port, &GPIO_InitStruct);
+  LL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
   /**/
   GPIO_InitStruct.Pin = Button_Input_Pin;

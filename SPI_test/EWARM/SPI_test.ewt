@@ -1472,7 +1472,7 @@
             <group>
                 <name>Dominator</name>
                 <file>
-                    <name>$PROJ_DIR$\..\custom_cod\SPI_interface\Dominator\dirverM.c</name>
+                    <name>$PROJ_DIR$\..\custom_cod\SPI_interface\Dominator\driverM.c</name>
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\custom_cod\SPI_interface\Dominator\driverM.h</name>

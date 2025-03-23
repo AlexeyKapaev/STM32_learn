@@ -23,6 +23,10 @@ C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\EWARM\..\c
 -I
 C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\EWARM\..\custom_cod\LED\
 -I
+C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\EWARM\..\custom_cod\SPI_interface\FuckingSlave\
+-I
+C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\EWARM\..\custom_cod\SPI_interface\Dominator\
+-I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc\c\aarch32
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc
@@ -40,6 +44,10 @@ C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\Drivers\CM
 C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\custom_cod\input
 -I
 C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\custom_cod\LED
+-I
+C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\custom_cod\SPI_interface\FuckingSlave
+-I
+C:\Users\Alexej\Desktop\типо проекты\SPI learning\SPI_test\custom_cod\SPI_interface\Dominator
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
