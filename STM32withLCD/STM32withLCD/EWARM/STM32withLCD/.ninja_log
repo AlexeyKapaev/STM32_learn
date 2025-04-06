@@ -1,0 +1,19 @@
+# ninja log v5
+112	514	7656507728610695	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/UserCode/DriverLCd/driverLCD.o	1c95d0920cfac856
+2	315	7652328802270315	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Application/EWARM/startup_stm32f401xc.o	f0831971341c71c5
+10	407	7652331971019741	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Application/User/Core/gpio.o	28e5d27ae28d080d
+3	591	7656507729182169	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Application/User/Core/main.o	792997a5d9e424fb
+15	549	7652331972142514	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_utils.o	3a8c465263c642ee
+478	843	7652331975294304	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_gpio.o	72a465ef1e7712c1
+566	913	7652331976169231	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_rcc.o	2d2c09e131bb900b
+30	362	7652331970615024	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Drivers/CMSIS/system_stm32f4xx.o	67b016037e88df9d
+374	651	7652331973523736	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Drivers/STM32F4xx_HAL_Driver/stm32f4xx_ll_exti.o	eed03f05850819bd
+419	778	7652331974790494	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/Application/User/Core/stm32f4xx_it.o	ec47c219f07c744d
+12	102	7644612682435680	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/UserCode/driverLCD.o	84757b295ae0b432
+604	691	7656507730346445	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Exe/STM32withLCD.out	ce8e9bea7c8ca0f2
+705	716	7656507730709934	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Exe/STM32withLCD.hex	44a2be993b5ffcc2
+0	254	7645611833125535	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/UserCode/DriverLCD.o	42055b098d327970
+12	531	7656507728454664	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/UserCode/Delay/delayTim.o	f0e450375d1fed49
+2	240	7656508875598230	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Obj/UserCode/DriverLCd/driverLCD.o	1c95d0920cfac856
+251	339	7656508876571150	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Exe/STM32withLCD.out	ce8e9bea7c8ca0f2
+354	364	7656508876907427	C:/Users/Alexej/Desktop/типо проекты/STM32withLCD/STM32withLCD/EWARM/STM32withLCD/Exe/STM32withLCD.hex	44a2be993b5ffcc2

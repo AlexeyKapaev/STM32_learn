@@ -1,0 +1,30 @@
+C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\STM32withLCD\BrowseInfo\Application\User\Core\main.pbi: \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\UserCode\Delay\delayTim.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\UserCode\DriverLCD\driverLCD.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Core\Inc\gpio.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_pwr.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_utils.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_cortex.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Include\mpu_armv7.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Include\cmsis_iccarm.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Include\cmsis_version.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Config_Full.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdint.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Include\core_cm4.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rcc.h \
+  C:\Users\Alexej\Desktop\типо\ проекты\STM32withLCD\STM32withLCD\EWARM\..\Core\Inc\main.h \
+  C:\Users\Alexej\Desktop\С‚РёРїРѕ\ РїСЂРѕРµРєС‚С‹\STM32withLCD\STM32withLCD\Core\Src\main.c
